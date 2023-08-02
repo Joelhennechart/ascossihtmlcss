@@ -3,22 +3,7 @@
 *{margin :0;
 padding: 0;
     }
-h1{	
-    position:relative;
-    top: 30%;
-    left: 25%;
-    width:50% ;
-    text-align: center;
-    font-family:BANGERS, 'BANGERS', Times, serif;
-    font-size: 60px;
-    color: #ffff;
-    font-weight: bolder;
-    /* contour glacé */
-    padding:10px;
-	background: #ffffff4f;
-   	border-radius: 30px;
-	backdrop-filter: blur(px);
-	}
+
 h2{
     font-family: 'Bangers', Times, serif;
     font-size: 40px;

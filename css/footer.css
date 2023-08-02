@@ -1,12 +1,11 @@
 
-.footer{
+footer{
+    height: 1080px;
+    
     background-image: url(../images/fondFooter.png);
-    height: 540px;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size:contain;
+    background-repeat:no-repeat;
     }
-    
-    
 .imageMap{
     border: solid 5px;
     color: #ffffff;
@@ -14,21 +13,19 @@
     border-radius: 40px;
     z-index: 50;
 }
-.buttonFooter
+/* .buttonFooter 
 { 
 font-family:ARIAL, Helvetica, sans-serif;
 font-size: 30px;
 font-weight: bolder;
 display:flex;
 top: 100px;
-    }
+    }*/
+.trait{
+    width: 3px;
+    height: 300px;
+}
 a{
 text-decoration: none;
-list-style:none;
-}
-a:link{
-    list-style:none;
-    }
-a:visited{
-    list-style:none;}
 
+}
