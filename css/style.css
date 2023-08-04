@@ -3,32 +3,79 @@
 *{margin :0;
 padding: 0;
     }
-h1{	
-    position:relative;
-    top: 30%;
-    text-align: center;
-    font-family:BANGERS, 'BANGERS', Times, serif;
-    font-size: 60px;
-    color: #ffff;
-    font-weight: bolder;
-    /* contour glacé */
-    padding:15px;
-	background: #ffffff4f;
-   	border-radius: 30px;
-	backdrop-filter: blur(px);
-	}
+    /* responsive plus petit que 754px*/
+@media all and (max-width: 754px) {
+	/* inserez vos proprietes css ici   */
 h2{
     font-family: 'Bangers', Times, serif;
-    font-size: 40px;
+    font-size: 30px;
+    
+    color:#204A9F;
+    }
+p{  
+    font-family:ARIAL, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #ffff;
+    list-style:none;
+    }
+a{
+    text-decoration: none;
+    list-style:none;
+    }
+a:link{
+    color: #204A9F;
+    list-style:none;
+    }
+a:visited{
+    color: #204A9F;
+    list-style:none;
+}
+.couleur{background-color:#F9A825;
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;}
+.verre{
+    display: none;}
+.photoAccueilVente{
+    display: none;}
+.photoQuisommesnous{
+    display: none;}
+.photoQuisommesnous{
+    display: none;}
+.photoABbio{
+    height: 150px;
+   
+}
+.photoBioeuropeen{
+    height: 150px;
+   
+    /* margin-left: -50px; */
+}
+.titreDroite{
+    text-align: end;
+}
+}
+
+            
+
+/* responsive entre 755px et 899px*/
+@media all and (min-width: 755px) and (max-width: 899px) {
+	/* inserez vos proprietes css ici   */
+h2{
+    font-family: 'Bangers', Times, serif;
+    font-size: 30px;
     
     color:#204A9F;
    }
-p{
+p{  
     font-family:ARIAL, Helvetica, sans-serif;
     font-size: 24px;
 	font-weight: bolder;
-    color: #ffff;}
-a {
+    color: #ffff;
+    list-style:none;
+    }
+a{
     text-decoration: none;
     list-style:none;
     }
@@ -46,24 +93,81 @@ a:visited{
     border-radius: 30px;}
 .verre{
     margin: 0px 10px;
-    width: 250px; height: 250px;
+    width: 100px;
 }
 .photoAccueilVente{
-    width: 450px; 
+    width: 200px; 
+    margin-top: 30%;
 }
 .photoQuisommesnous{
-    width: 550px;
-    margin: -60px; 
-}
+    width: 200px;
+    margin-top: 150%;
+    }
 .photoABbio{
     height: 200px;
-    margin-top: -100px;
+    /* margin-top: 50%; */
 }
 .photoBioeuropeen{
     height: 200px;
-    margin-top: 320px;
-    margin-left: -50px;
+    /* margin-top: 320px;
+    margin-left: -50px; */
 }
 .titreDroite{
     text-align: end;
 }
+}
+/* responsive entre 900px */
+@media all and (min-width: 900px) {
+	/* inserez vos proprietes css ici   */
+    h2{
+        font-family: 'Bangers', Times, serif;
+        font-size: 40px;
+        
+        color:#204A9F;
+       }
+    p{  
+        font-family:ARIAL, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: bolder;
+        color: #ffff;
+        list-style:none;
+        }
+    a{
+        text-decoration: none;
+        list-style:none;
+        }
+    a:link{
+        color: #204A9F;
+        list-style:none;
+        }
+    a:visited{
+        color: #204A9F;
+        list-style:none;
+    }
+    .couleur{background-color:#F9A825;
+        width: 100%;
+        padding: 15px;
+        border-radius: 30px;}
+    .verre{
+        margin: 0px 10px;
+        width: 200px;    }
+    .photoAccueilVente{
+        width: 300px; 
+    }
+    .photoQuisommesnous{
+        width: 400px;
+
+    }
+    .photoABbio{
+        height: 200px;
+     
+    }
+    .photoBioeuropeen{
+        height: 200px;
+        margin-top: 20px;
+       
+    }
+    .titreDroite{
+        text-align: end;
+    }
+    }
