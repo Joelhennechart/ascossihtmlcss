@@ -304,7 +304,7 @@ a:visited{
 @media all and (min-width: 2000px) {
 	/* inserez vos proprietes css ici   */
 .paysage{
-	height:800px;
+	height:70svh;
 	background-image: url(../images/fondNavbar.png);
 	background-size: contain;
 	background-repeat: no-repeat;

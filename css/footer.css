@@ -1,9 +1,127 @@
+/* responsive plus petit que 558px  */
+@media all and (max-width: 558px){
+	
+    footer{
+        height:100vh;
+        
+        background-image: url(../images/fondFooter.png);
+        background-repeat:no-repeat;
+        }
+    .imageMap{
+        height: 35%;
+        border: solid 5px;
+        color: #ffffff;
+        box-shadow: 3px 3px 10px black;
+        border-radius: 20px;
+        z-index: 50;
+    }
+    .emplacementPetit{
+        position: relative;
+        top:-130px;}
+    .emplacementPetit2{
+        position: relative;
+        top:-130px;}
+    
+    .trait{
+        display: none;}
+    a{
+    text-decoration: none;
+    
+    }
+    }  
 
+/* responsive entre 569px et 767px  */
+@media all and (min-width: 569px) and (max-width: 767px){
+	
+    footer{
+        width:100%;
+       
+        background-image: url(../images/fondFooter.png);
+        background-repeat:no-repeat;
+        }
+    .imageMap{
+        height: 35%;
+        border: solid 5px;
+        color: #ffffff;
+        box-shadow: 3px 3px 10px black;
+        border-radius: 20px;
+        z-index: 50;
+    }
+    .emplacementPetit{
+        position: relative;
+        top:-130px;}
+    
+    .trait{
+        display: none;}
+    a{
+    text-decoration: none;
+    
+    }
+    } 
+/* responsive de 768px a 975px  */
+@media all and (min-width: 768px) and (max-width: 975px){
+	
+    footer{
+        width:100%;
+        height:684px;
+        
+        background-image: url(../images/fondFooter.png);
+        background-repeat:no-repeat;
+        }
+    .imageMap{
+        height: 35%;
+        border: solid 5px;
+        color: #ffffff;
+        box-shadow: 3px 3px 10px black;
+        border-radius: 20px;
+        z-index: 50;
+    }
+    
+    .trait{
+        width: 3px;
+        height: 300px;
+    }
+    a{
+    text-decoration: none;
+    
+    }
+    } 
+/* responsive de 976px a 1383px  */
+@media all and (min-width: 976px) and (max-width: 1383px){
+	
+    footer{
+        width:100%;
+        height:684px;
+        
+        background-image: url(../images/fondFooter.png);
+        background-repeat:no-repeat;
+        }
+    .imageMap{
+        height: 50%;
+        border: solid 5px;
+        color: #ffffff;
+        box-shadow: 3px 3px 10px black;
+        border-radius: 20px;
+        z-index: 50;
+    }
+    
+    .trait{
+        width: 3px;
+        height: 300px;
+    }
+    a{
+    text-decoration: none;
+    
+    }
+    } 
+/* responsive superieur a 1384px  */
+@media all and (min-width: 1384px){
+	
 footer{
-    height: 1080px;
+    width:100%;
+    height:684px;
     
     background-image: url(../images/fondFooter.png);
-    background-size:contain;
     background-repeat:no-repeat;
     }
 .imageMap{
@@ -22,3 +140,4 @@ a{
 text-decoration: none;
 
 }
+} 
