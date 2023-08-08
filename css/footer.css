@@ -1,13 +1,13 @@
 /* responsive plus petit que 558px  */
 @media all and (max-width: 558px){
-	
     footer{
-        height:100vh;
-        
-        background-image: url(../images/fondFooter.png);
+        height: 700px;
+        background-image: url(../images/fondFooterMobile.png);
         background-repeat:no-repeat;
         }
     .imageMap{
+        position: relative;
+        top:-20px;
         height: 35%;
         border: solid 5px;
         color: #ffffff;
@@ -20,23 +20,34 @@
         top:-130px;}
     .emplacementPetit2{
         position: relative;
+        top:-190px;}
+    .contact{
+        position: relative;
+        text-align: end;
         top:-130px;}
-    
+    .barreFooter{
+        position: relative;
+        bottom: 20px;
+    }
+    .boutonFooter{
+        font-family:ARIAL, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: bolder;
+        color: #ffff;
+        
+    }
     .trait{
         display: none;}
     a{
     text-decoration: none;
-    
     }
-    }  
-
-/* responsive entre 569px et 767px  */
-@media all and (min-width: 569px) and (max-width: 767px){
-	
-    footer{
+    }
+/* responsive entre 569px et 750px  */
+@media all and (min-width: 569px) and (max-width: 750px){
+	footer{
         width:100%;
        
-        background-image: url(../images/fondFooter.png);
+        background-image: url(../images/fondFooterMobile.png);
         background-repeat:no-repeat;
         }
     .imageMap{
@@ -55,16 +66,17 @@
         display: none;}
     a{
     text-decoration: none;
-    
+    }
+    .barreFooter{
+        position: relative;
+        bottom: 10px;
     }
     } 
-/* responsive de 768px a 975px  */
-@media all and (min-width: 768px) and (max-width: 975px){
-	
+/* responsive de 751px a 975px  */
+@media all and (min-width: 751px) and (max-width: 975px){
     footer{
         width:100%;
         height:684px;
-        
         background-image: url(../images/fondFooter.png);
         background-repeat:no-repeat;
         }
@@ -76,16 +88,18 @@
         border-radius: 20px;
         z-index: 50;
     }
-    
     .trait{
         width: 3px;
         height: 300px;
     }
     a{
     text-decoration: none;
-    
     }
+    .barreFooter{
+        position: relative;
+        bottom: -200px;
     } 
+    }
 /* responsive de 976px a 1383px  */
 @media all and (min-width: 976px) and (max-width: 1383px){
 	
@@ -104,23 +118,23 @@
         border-radius: 20px;
         z-index: 50;
     }
-    
     .trait{
         width: 3px;
         height: 300px;
     }
     a{
     text-decoration: none;
-    
     }
-    } 
+    .barreFooter{
+        position: relative;
+        bottom: -200px;
+    }
+} 
 /* responsive superieur a 1384px  */
 @media all and (min-width: 1384px){
-	
 footer{
     width:100%;
     height:684px;
-    
     background-image: url(../images/fondFooter.png);
     background-repeat:no-repeat;
     }
@@ -131,13 +145,15 @@ footer{
     border-radius: 40px;
     z-index: 50;
 }
-
 .trait{
     width: 3px;
     height: 300px;
 }
 a{
 text-decoration: none;
-
+}
+.barreFooter{
+    position: relative;
+    bottom: -200px;
 }
 } 
