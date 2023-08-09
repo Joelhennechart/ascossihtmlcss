@@ -14,7 +14,7 @@ h2{
     }
 p{  
     font-family:ARIAL, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bolder;
     color: #ffff;
     list-style:none;
@@ -70,7 +70,7 @@ h2{
    }
 p{  
     font-family:ARIAL, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 	font-weight: bolder;
     color: #ffff;
     list-style:none;
@@ -150,7 +150,8 @@ a:visited{
         border-radius: 30px;}
     .verre{
         margin: 0px 10px;
-        width: 200px;    }
+        width: 200px;
+    }
     .photoAccueilVente{
         width: 300px; 
     }
