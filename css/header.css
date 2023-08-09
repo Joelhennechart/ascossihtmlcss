@@ -1,32 +1,146 @@
-	/* responsive entre 576px et 899px*/
-@media all and (max-width: 899px) {
-	/* inserez vos proprietes css ici   */
+	/* responsive entre 594px et 899px*/
+@media all and (max-width: 593px){
 	.paysage{
-		height: 250px;
 		width: 100%;
-		background-image: url(../images/fondNavbar.png);
+		height: 360px;
+		background-image: url(../images/fondNavbarTablette.png);
 		background-size: contain;
 		background-repeat: no-repeat;	
 	}
 	h1{	
 		position:relative;
-		top: 17%;
-		left: 17%;
+		top: 10%;
+		left: 40%;
+		width: 200px;
+		text-align: center;
+		font-family:BANGERS, 'BANGERS', Times, serif;
+		font-size: 16px;
+		color: #204A9F;
+		font-weight: bolder;
+		/* contour glacé */
+		padding:5px;
+		background: #ffffffa1;
+		   border-radius: 5px;
+		backdrop-filter: blur(px);
+	}
+	.header__burger {
+		display: block;
+		cursor: pointer;
+	}
+	.header__burger svg{
+		margin-left:85%;
+		margin-top: -60px;
+		stroke: #204A9F;
+		width: 50px;
+		height: 50px;
+		/* contour glacé */
+		
+		background: #ffffff9c;
+		   border-radius: 10px;
+		backdrop-filter: blur(px);
+	}
+	.header__nav__close{
+		display: block;
+		cursor: pointer;
+	}
+	.header__nav__close svg{
+		stroke: #ffffff;
+		width: 40px;
+		height: 40px;
+		position: absolute;
+		top: 10px;
+		right: 16px;
+	}
+	.header__nav{
+		position: fixed;
+		top:20px;
+		right:5px;
+		width: 230px;
+		height: 400px;
+		border-radius: 20px;
+		background-color: #204A9F;
+		display: flex;
+		padding-right: 10%;
+		padding-top: 20px;
+		
+		flex-direction: column;
+		transform: translateX(100%);
+		display: none;
+		transition: 0.3s transform ease-in-out;
+	}
+	.header__nav.open{
+		transform: initial;
+		display: block;
+	}
+	
+	.blanc:link{color: #ffffff;}
+	.blanc:visited{color: #ffffff;} 
+	.button	{
+		font-family:ARIAL, Helvetica, sans-serif;
+		font-weight: bolder;
+		margin-left: 25%;
+		margin-bottom: 20px;
+	}
+	.blancBouton:link{color: #ffffff;}	
+	.blancBouton:visited{color: #ffffff;}
+	.panier{
+		vertical-align:top;
+		margin-left:25%;
+		margin-bottom:40px; 
+		max-width:4px;
+		max-height:4px}
+	.actualite{
+		margin-left: 25%;
+		font-family:ARIAL, Helvetica, sans-serif;
+		font-weight: bolder;
+		background-color:#E6232E;
+		padding: 3px;
+		border-radius: 10px;
+		}
+	.logo{
+		position: absolute;
+		top:20px; left:5%; 
+		/* width: 750px; */
+		max-width: 50px;
+		max-height: 50px;
+		border-radius: 5px;
+		}
+	
+	a {
+		text-decoration: none;
+		}
+	a:link{
+		color: #204A9F;
+		}
+	a:visited{
+		color: #204A9F;
+	}
+	}	
+	/* responsive entre 594px et 899px*/
+@media all and (min-width: 594px) and (max-width: 899px) {
+	.paysage{
+		width: 100%;
+		height: 550px;
+		background-image: url(../images/fondNavbarTablette.png);
+		background-size: contain;
+		background-repeat: no-repeat;	
+	}
+	h1{	
+		position:relative;
+		top: 20%;
+		left: 40%;
 		width: 300px;
 		text-align: center;
 		font-family:BANGERS, 'BANGERS', Times, serif;
 		font-size: 24px;
-		color: #ffff;
+		color: #204A9F;
 		font-weight: bolder;
 		/* contour glacé */
 		padding:10px;
-		background: #ffffff4f;
+		background: #ffffffa1;
 		   border-radius: 30px;
 		backdrop-filter: blur(px);
 		}
-	/* .barre{
-		display:none
-	 } */
 	.header__burger {
 		display: block;
 		cursor: pointer;
@@ -34,9 +148,14 @@
 	.header__burger svg{
 		margin-left:90%;
 		margin-top: -60px;
-		stroke: #ffffff;
-		width: 40px;
-		height: 40px;
+		stroke: #204A9F;
+		width: 50px;
+		height: 50px;
+		/* contour glacé */
+		
+		background: #ffffff9c;
+		   border-radius: 10px;
+		backdrop-filter: blur(px);
 	}
 	.header__nav__close{
 		display: block;
@@ -100,7 +219,7 @@
 		border-radius: 10px;
 		}
 	
-	}
+	
 
 	.logo{
 		position: absolute;
@@ -120,7 +239,7 @@
 	a:visited{
 		color: #204A9F;
 	}
-	
+	}
 	
 	
 	/* responsive entre 900px et 1223px*/
@@ -135,17 +254,17 @@
 }
 h1{	
     position:relative;
-    top: 30%;
-    left: 30%;
+    top: 15%;
+    left: 45%;
     width: 500px;
     text-align: center;
     font-family:BANGERS, 'BANGERS', Times, serif;
     font-size: 40px;
-    color: #ffff;
+    color: #204A9F;
     font-weight: bolder;
     /* contour glacé */
     padding:10px;
-	background: #ffffff4f;
+	background: #ffffffab;
    	border-radius: 30px;
 	backdrop-filter: blur(px);
 	}
@@ -156,8 +275,8 @@ h1{
 	display: none;
 }
 .barre{
-	margin-top:-50px;	
-	margin-left:15%;
+	margin-top:-80px;	
+	margin-left:18%;
 	display:flex;
 	width: 740px;
 	
@@ -165,7 +284,7 @@ h1{
 	list-style:none;
 	/* contour glacé */
 	padding: 5px 20px 5px 0px;
-	background: #ffffff62;
+	background: #ffffffb7;
    	border-radius: 20px;
 	backdrop-filter: blur(px);
 	}
@@ -192,7 +311,10 @@ a:visited{
 	{
 	margin: 0 10px; 
 	font-family:ARIAL, Helvetica, sans-serif;
-	font-weight: bolder}
+	font-weight: bolder;
+	font-size: 16px;
+	margin: auto;
+}
 	
 .panier
 	{
@@ -201,19 +323,19 @@ a:visited{
 	max-height:4px}
 .actualite	
 	{
-	margin: 0 10px; vertical-align:1px;
+	margin: 0 5px; vertical-align:1px;
 	font-family:ARIAL, Helvetica, sans-serif;
 	font-weight: bolder;
+	font-size: 16px;
 	background-color:#E6232E;
-	padding: 3px;
+	padding: 1px;
 	border-radius: 10px;
 	}
 .blanc:link{color: #ffffff;}
 .blanc:visited{color: #ffffff;}
 }
-
-	/* responsive entre 1200px et 1999px*/
-@media all and (min-width: 1224px) and (max-width: 1999px) {
+/* responsive entre 1508px et 1999px*/
+@media all and (min-width: 1224px) and (max-width: 1507px) {
 	/* inserez vos proprietes css ici   */
 .paysage{
 	height: 500px;
@@ -225,16 +347,16 @@ a:visited{
 h1{	
     position:relative;
     top: 20%;
-    left: 22%;
-    width: 700px;
+    left: 50%;
+    width: 600px;
     text-align: center;
     font-family:BANGERS, 'BANGERS', Times, serif;
-    font-size: 60px;
-    color: #ffff;
+    font-size: 50px;
+    color: #204A9F;
     font-weight: bolder;
     /* contour glacé */
     padding:10px;
-	background: #ffffff4f;
+	background: #ffffffb4;
    	border-radius: 30px;
 	backdrop-filter: blur(px);
 	}
@@ -245,7 +367,7 @@ h1{
 	display: none;
 }
 .barre{
-	margin-top:-80px;	
+	margin-top:-85px;	
 	margin-left:40%;
 	display:flex;
 	width: 750px;
@@ -253,8 +375,8 @@ h1{
 	
 	list-style:none;
 	/* contour glacé */
-	padding: 5px 40px 5px 5px;
-	background: #ffffff62;
+	padding: 3px 5px 3px 3px;
+	background: #ffffffc0;
    	border-radius: 20px;
 	backdrop-filter: blur(px);
 	}
@@ -285,7 +407,7 @@ a:visited{
 	
 .panier
 	{
-	margin:0 40px; vertical-align:top;
+	margin:-5px 40px; vertical-align:top;
 	max-width:4px;
 	max-height:4px}
 .actualite	
@@ -300,7 +422,96 @@ a:visited{
 .blanc:link{color: #ffffff;}
 .blanc:visited{color: #ffffff;}
 }
-/* responsive entre 1224px et 1999px*/
+
+	/* responsive entre 1508px et 1999px*/
+@media all and (min-width: 1508px) and (max-width: 1999px) {
+	/* inserez vos proprietes css ici   */
+.paysage{
+	height: 500px;
+	width: 100%;
+	background-image: url(../images/fondNavbar.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+h1{	
+    position:relative;
+    top: 20%;
+    left: 50%;
+    width: 700px;
+    text-align: center;
+    font-family:BANGERS, 'BANGERS', Times, serif;
+    font-size: 60px;
+    color: #204A9F;
+    font-weight: bolder;
+    /* contour glacé */
+    padding:10px;
+	background: #ffffffb6;
+   	border-radius: 30px;
+	backdrop-filter: blur(px);
+	}
+.header__burger{
+	display: none;
+	}
+.header__nav__close{
+	display: none;
+}
+.barre{
+	margin-top:-80px;	
+	margin-left:50%;
+	display:flex;
+	width: 750px;
+	
+	
+	list-style:none;
+	/* contour glacé */
+	padding: 5px 40px 5px 5px;
+	background: #ffffffc0;
+   	border-radius: 20px;
+	backdrop-filter: blur(px);
+	}
+.logo{
+	position: absolute;
+    top:40px; left:5%; 
+    /* width: 750px; */
+	max-width:120px;
+	max-height: 120px;
+	border-radius: 10px;
+	}
+
+a {
+	text-decoration: none;
+	}
+a:link{
+	color: #204A9F;
+	}
+a:visited{
+	color: #204A9F;
+}
+
+.button 
+	{
+	margin: 0 10px; 
+	font-family:ARIAL, Helvetica, sans-serif;
+	font-weight: bolder}
+	
+.panier
+	{
+	margin:-5px 40px; vertical-align:top;
+	max-width:4px;
+	max-height:4px}
+.actualite	
+	{
+	margin: 0 10px; vertical-align:1px;
+	font-family:ARIAL, Helvetica, sans-serif;
+	font-weight: bolder;
+	background-color:#E6232E;
+	padding: 3px;
+	border-radius: 10px;
+	}
+.blanc:link{color: #ffffff;}
+.blanc:visited{color: #ffffff;}
+}
+/* responsive + de 2000px*/
 @media all and (min-width: 2000px) {
 	/* inserez vos proprietes css ici   */
 .paysage{
@@ -311,17 +522,17 @@ a:visited{
 }
 h1{	
     position:relative;
-    top: 30%;
-    left: 30%;
+    top: 15%;
+    left: 55%;
     width: 900px;
     text-align: center;
     font-family:BANGERS, 'BANGERS', Times, serif;
     font-size: 80px;
-    color: #ffff;
+    color: #204A9F;
     font-weight: bolder;
     /* contour glacé */
     padding:10px;
-	background: #ffffff4f;
+	background: #ffffffb7;
    	border-radius: 30px;
 	backdrop-filter: blur(px);
 	}
@@ -341,7 +552,7 @@ h1{
 	list-style:none;
 	/* contour glacé */
 	padding: 5px 40px 5px 5px;
-	background: #ffffff62;
+	background: #ffffffc0;
    	border-radius: 20px;
 	backdrop-filter: blur(px);
 	}
@@ -372,7 +583,7 @@ a:visited{
 	
 .panier
 	{
-	margin:0 40px; vertical-align:top;
+	margin:-5px 40px; vertical-align:top;
 	max-width:4px;
 	max-height:4px}
 .actualite	
