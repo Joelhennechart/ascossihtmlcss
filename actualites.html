@@ -3,15 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vente</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Actualités</title>
 </head>
 <body>
-
-    <main>
-        <h2>vente</h2>
+    <header class="paysage">
+        <h1>actualités</h1>
+        <a href="index.html"><img class ="logo" src="images/ASCOSSI-CREATION-ET-DELICES-LOGO.png" alt="LOGO-ASCOSSI-CREATION-ET-DELICES"></a>
+        <nav class="header__nav">        
+            <ul class="barre">
+                <li class="panier"><a href="panier.html"><img src="/images/panier.PNG"alt="panier"></a></li>
+                <li class="button"><a class="blancBouton" href="#lieux" alt="magasins ou les boissons sont en vente">Où trouver</a></li>
+                <li class="button"><a class="blancBouton" href="Bissap.html" alt="vertus du Bissap">Bissap?</a></li>
+                <li class="button"><a class="blancBouton" href="gingembre.html" alt="vertus du Gingembre">gingembre?</a></li>
+                <li class="button"><a class="blancBouton" href="index.html#valeurs" alt="valeurs">nos valeurs</a></li>
+                <li class="button"><a class="blancBouton" href="" alt="histoire d ascossi">qui?</a></li>
+                <li class="button"><a class="blancBouton" href="vente.html" alt="page de vente">vente</a></li> 
+                <li class="actualite"><a class="blanc" href="actualites.html">actualités</a></li>
+                <div class="header__nav__close"onclick="closeMenuMobile()">
+                    <svg aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z"></path>
+                    </svg>
+                </div>
+            </ul>
+        </nav>
+        <div class="header__burger" onclick="openMenuMobile()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+            </svg>  
+        </div>    
+    </header>
+   <main>
+        <h2>actualités</h2>
 
     </main>
+    <footer class="footer"> 
+        <div class="container my-5">
+            <div class="position-relative" style="bottom: -7vh">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-6">
+                        <a href="#lieux"alt="lien vers page de lieux de distribution de Ascossi Créations et Délices">
+                            <h2 id="lieux">PARTENAIRES</h2>
+                            <div class="row mt-5">
+                                <div class="col-xs-12 col-md-6 col-lg-7">
+                                    <img class="imageMap" src="images/imageGooglemap.png" alt="image de googlemap">
+                                </div>
+                                <div class="col-xs-12 col-md-6 col-lg-5">
+                                    <p class="emplacementPetit">Lieux où vous pourrez trouver les boissons Ascossi créations et délices</p>
+                                </div>
+                          </div>
+                        </a>
+                    </div>
+                    <div class="col-1">
+                        <img class="trait"src="/images/Tracé 118.png" alt="trait de separation">
+                    </div>
+                    <div class="col-xs-12 col-sm-7 col-md-5">
+                        <h2 class="contact">CONTACT</h2>
+                        <div class="col-12 position-relative" style="bottom:-60px">
+                        <a class="emplacementPetit2"href="mailto:ascossi.creations@yahoo.com"><p> Mail : ascossi.creations@yahoo.com </p></a>
+                        <p class="emplacementPetit2">Adresse : Ascossi 26400 Crest</p>
+                        <p class="emplacementPetit2">Tel : 06 17 85 22 69</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row"></div>
+                <div class="barreFooter">
+                     <div class="d-flex justify-content-evenly">
+                            <div class="btn btn-link mb-2">
+                                <a href="données_personnelles.html" alt="données_personnelles"><p class="boutonFooter">Données Personnelles</p></a>
+                            </div>
+                            <div class="btn btn-link mb-2">
+                                <a href="CGV.html" alt="Conditions Générales de Vente"><p class="boutonFooter">C G V</p></a>
+                            </div>
+                            <div class="btn btn-link mb-2">
+                                <a href="CGU.html" alt="Conditions Générales d Utilisateur"><p class="boutonFooter">C G U</p></a>
+                            </div>
+                            <div class="btn btn-link mb-2">
+                                <a href="Mentions_légales.html" alt="Mentions Légales"><p class="boutonFooter">Mentions Légales</p></a>
+                            </div>
+                        </div>
+                    </div>  
+                </div> 
+            </div>    
+        </div> 
+    </footer>
 
-    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./js/index.js"></script>
+
 </body>
+    
 </html>
