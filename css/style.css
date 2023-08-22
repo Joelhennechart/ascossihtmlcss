@@ -1,8 +1,11 @@
 @import'header.css';
 @import'footer.css';
 *{margin :0;
-padding: 0;
-    }
+padding: 0;       
+box-sizing: border-box;}
+
+
+
     /* responsive plus petit que 754px*/
 @media all and (max-width: 754px) {
 	/* inserez vos proprietes css ici   */
