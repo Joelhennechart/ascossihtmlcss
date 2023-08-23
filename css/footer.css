@@ -1,6 +1,7 @@
 /* responsive plus petit que 558px  */
 @media all and (max-width: 558px){
-    footer{
+    .footer{
+        margin-top: 50px;
         height: 700px;
         background-image: url(../images/fondFooterMobile.png);
         background-repeat:no-repeat;
@@ -27,7 +28,7 @@
         top:-130px;}
     .barreFooter{
         position: relative;
-        bottom: 20px;
+        bottom: 60px;
     }
     .boutonFooter{
         font-family:ARIAL, Helvetica, sans-serif;
@@ -44,9 +45,9 @@
     }
 /* responsive entre 569px et 750px  */
 @media all and (min-width: 569px) and (max-width: 750px){
-	footer{
+	.footer{
+        margin-top: 100px;
         width:100%;
-       
         background-image: url(../images/fondFooterMobile.png);
         background-repeat:no-repeat;
         }
@@ -74,7 +75,8 @@
     } 
 /* responsive de 751px a 975px  */
 @media all and (min-width: 751px) and (max-width: 975px){
-    footer{
+    .footer{
+        margin-top: 100px;
         width:100%;
         height:684px;
         background-image: url(../images/fondFooter.png);
@@ -103,7 +105,8 @@
 /* responsive de 976px a 1383px  */
 @media all and (min-width: 976px) and (max-width: 1383px){
 	
-    footer{
+    .footer{
+        margin-top: 100px;
         width:100%;
         height:684px;
         
@@ -132,7 +135,7 @@
 } 
 /* responsive superieur a 1384px  */
 @media all and (min-width: 1384px){
-footer{
+.footer{
     width:100%;
     height:684px;
     background-image: url(../images/fondFooter.png);

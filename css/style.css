@@ -1,8 +1,11 @@
 @import'header.css';
 @import'footer.css';
 *{margin :0;
-padding: 0;
-    }
+padding: 0;       
+box-sizing: border-box;}
+
+
+
     /* responsive plus petit que 754px*/
 @media all and (max-width: 754px) {
 	/* inserez vos proprietes css ici   */
@@ -55,6 +58,13 @@ a:visited{
 .titreDroite{
     text-align: end;
 }
+.fondGingembre{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/gingembre.png);
+    background-size: contain;
+    background-repeat: no-repeat;	
+}
 }
 
             
@@ -80,10 +90,12 @@ a{
     list-style:none;
     }
 a:link{
+    text-decoration: none;
     color: #204A9F;
     list-style:none;
     }
 a:visited{
+    text-decoration: none;
     color: #204A9F;
     list-style:none;
 }
@@ -115,6 +127,13 @@ a:visited{
 .titreDroite{
     text-align: end;
 }
+.fondGingembre{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/gingembre.png);
+    background-size: contain;
+    background-repeat: no-repeat;	
+}
 }
 /* responsive entre 900px */
 @media all and (min-width: 900px) {
@@ -139,10 +158,12 @@ a:visited{
     a:link{
         color: #204A9F;
         list-style:none;
+        text-decoration: none;
         }
     a:visited{
         color: #204A9F;
         list-style:none;
+        text-decoration: none;
     }
     .couleur{background-color:#F9A825;
         width: 100%;
@@ -156,7 +177,7 @@ a:visited{
         width: 300px; 
     }
     .photoQuisommesnous{
-        width: 400px;
+        width: 350px;
 
     }
     .photoABbio{
@@ -170,5 +191,19 @@ a:visited{
     }
     .titreDroite{
         text-align: end;
+    }
+    .fondGingembre{
+        height: 100%;
+        width: 100%;
+        background-image: url(../images/gingembre.png);
+        background-size: contain;
+        background-repeat: no-repeat;	
+    }
+    .fondBissap{
+        height: 100%;
+        width: 100%;
+        background-image: url(../images/Bissap.png);
+        background-size: contain;
+        background-repeat: no-repeat;	
     }
     }
